@@ -48,7 +48,9 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   #gema para autenticacion
-  gem 'devise';
+  gem 'devise'
+  #gema para usar api de spotify
+  gem 'rspotify'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
