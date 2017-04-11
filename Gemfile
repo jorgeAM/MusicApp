@@ -51,6 +51,8 @@ group :development do
   gem 'devise'
   #gema para usar api de spotify
   gem 'rspotify'
+  #gema para usar bootstrap
+  gem 'bootstrap-sass'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

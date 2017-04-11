@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
+    <meta charset="utf-8">
     <title>Music</title>
     <%= csrf_meta_tags %>
 
@@ -9,6 +10,9 @@
   </head>
 
   <body>
+    <!-- render del partial de la navegacion-->
+    <%= render 'partials/nav' %>
+    <!--div para los flash que pide gema devise-->
   	<div style="<%= "display: none;" if alert.nil? && notice.nil? %>">
   		<p class="notice"><%= notice %></p>
   		<p class="alert"><%= alert %></p>
