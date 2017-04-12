@@ -1,0 +1,8 @@
+<h1>Resultados de Busqueda</h1>
+<ul>
+	<% @results.map do |v| %>
+		<li>
+			<%= v.name %>
+		</li>
+	<% end %>
+</ul>
