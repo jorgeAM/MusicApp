@@ -1,18 +1,18 @@
-<nav>
+<nav class="row">
 	<ul class="nav nav-tabs">
-		<li role="presentation" class="active">
+		<li role="presentation" class="active col-md-4  col-sm-4 col-xs-4">
 	  		<%= link_to 'Inicio', root_path %>
 	  	</li>
 
 	  	<% if (!user_signed_in?)%>
-	  		<li role="presentation" > 
+	  		<li role="presentation" class="col-md-4 col-sm-4 col-xs-4" > 
 		  		<%= link_to 'Registrate', new_user_registration_path %>
 		  	</li>
-		  	<li role="presentation">
+		  	<li role="presentation" class="col-md-4 col-sm-4 col-xs-4">
 		  		<%= link_to 'Inicia Sesión', new_user_session_path %>
 		  	</li>
 		<% else %>
-			<li role="presentation">
+			<li role="presentation" class="col-md-8 col-sm-4 col-xs-4">
 		  		<%= link_to 'Cerrar Sesión', destroy_user_session_path, method: :delete%>
 		  	</li>
 	  	<% end %>
