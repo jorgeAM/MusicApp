@@ -18,6 +18,9 @@ body {
 	//para ocultar scroll horizontal
 	overflow-x: hidden;
 	background-image: image-url('joker.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-size: cover;
 }
 
